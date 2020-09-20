@@ -1,10 +1,6 @@
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 
-from pygments.lexers import get_lexer_by_name
-from pygments.formatters.html import HtmlFormatter
-from pygments import highlight
-
 
 class Task(models.Model):
     user = models.ForeignKey('auth.User', related_name='tasks', on_delete=models.CASCADE)
