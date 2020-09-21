@@ -14,7 +14,7 @@ django-seed==0.2.2
 djangorestframework==3.11.1  
 djangorestframework-simplejwt==4.4.0  
 Faker==4.1.3  
-mysqlclient @ file:///C:/mysqlclient-1.4.6-cp38-cp38-win32.whl  
+mysqlclient==1.4.6
 PyJWT==1.7.1  
 python-dateutil==2.8.1  
 pytz==2020.1  
@@ -35,6 +35,8 @@ Then start the server by running:
 For running the tests, do:
 
 `python manage.py test`
+
+Go to to_do_app_backend/settings.py and use your own values for SECRET_KEY and DATABASE.
 
 
 ## Features 
