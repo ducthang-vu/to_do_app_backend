@@ -1,5 +1,5 @@
 # to_do_app_backend
-**to_do_app_backend** is a python application which implements a basic API for a to-do app.
+**to_do_app_backend** is a Django application which implements a basic API for a to-do app.
 
 This project is still in development.
 
