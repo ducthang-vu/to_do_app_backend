@@ -6,7 +6,7 @@ This project is still in development.
 ## Minimum requirements
 This application is based on Django framework.
 
-python==3.8.1
+python==3.8.1  
 
 asgiref==3.2.10  
 Django==3.1.1  
@@ -14,13 +14,13 @@ django-seed==0.2.2
 djangorestframework==3.11.1  
 djangorestframework-simplejwt==4.4.0  
 Faker==4.1.3  
-mysqlclient==1.4.6
+mysqlclient==2.0.1  
 PyJWT==1.7.1  
 python-dateutil==2.8.1  
 pytz==2020.1  
 six==1.15.0  
 sqlparse==0.3.1  
-text-unidecode==1.3  
+text-unidecode==1.3   
 
 
 ## Usage
