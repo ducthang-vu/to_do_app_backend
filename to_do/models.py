@@ -14,3 +14,4 @@ class Task(models.Model):
 
     class Meta:
         db_table = 'do_do_tasks'
+        unique_together = 'user', 'title'
