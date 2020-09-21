@@ -8,5 +8,4 @@ class IsCreator(permissions.BasePermission):
     message = 'You must be the creator of this task.'
 
     def has_object_permission(self, request, view, obj):
-        print('confronto: ', obj.user == request.user)
         return obj.user == request.user
