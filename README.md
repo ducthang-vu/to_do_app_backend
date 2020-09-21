@@ -48,10 +48,10 @@ The JWT token expire after 5 minutes.
 
 Use the endpoint POST /api/token/refresh/ with the refresh token to get a new JWT token.
 
-Use the endpoint POST /api/tasks (header: ***Authorization: Bearer <JWT token>***) to create a new task.
-Use the endpoint GET|PUT|DELETE /api/tasks/<id>/ (header: ***Authorization: Bearer <JWT token>***) to perform 
+Use the endpoint POST /api/tasks (header: ***Authorization: Bearer \<JWT token>***) to create a new task.
+Use the endpoint GET|PUT|DELETE /api/tasks/\<id>/ (header: ***Authorization: Bearer \<JWT token>***) to perform 
 CRUD actions (retrieve, update, delete) on tasks.
-Use the endpoint GET /api/tasks (header: ***Authorization: Bearer <JWT token>***) to get the list of all user's tasks.
+Use the endpoint GET /api/tasks (header: ***Authorization: Bearer \<JWT token>***) to get the list of all user's tasks.
 
-Use the endpoint GET|PUT|DELETE api/users/<id>/ (header: ***Authorization: Bearer <JWT token>***) to perform 
+Use the endpoint GET|PUT|DELETE api/users/\<id>/ (header: ***Authorization: Bearer \<JWT token>***) to perform 
 CRUD actions (retrieve, update, delete) on user; user's first_name filed cannot be updated.
