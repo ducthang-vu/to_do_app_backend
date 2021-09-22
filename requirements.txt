@@ -1,5 +1,5 @@
 ﻿asgiref==3.2.10
-Django==3.1.9
+Django==3.1.13
 django-seed==0.2.2
 djangorestframework==3.11.1
 djangorestframework-simplejwt==4.4.0
